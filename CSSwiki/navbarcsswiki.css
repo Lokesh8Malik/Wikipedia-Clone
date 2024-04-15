@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.lines3{
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background-image: url('https://cdn4.iconfinder.com/data/icons/navigation-40/24/hamburger-menu-512.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.imgwiki{
+    width: 222px;
+    height: 50px;
+    /* border: 1px solid black; */
+    background-image: url('https://i.ibb.co/hKXDhNk/wiki.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 20px;
+}
+.navbar{
+    width: 100%;
+    min-height: 3.125rem;
+    background-color: #ffffff;
+    min-width: 31.25em;
+    max-width: 99.75rem;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 8px 52px;
+    align-items: center;
+    /* position: fixed; */
+}
+.inputwiki{
+    width: 380px;
+    height: 22px;
+    background-color: #fff;
+    color: #202122;
+    border-color: #a2a9b1;
+    /* width: 100%; */
+    margin: 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 0;
+    padding: 4px 8px;
+}
+.searchbutton{
+    background-color: #f8f9fa;
+    color: #202122;
+    border-color: #a2a9b1;
+    width: 68px;
+    height: 32px;
+    position: relative;
+    right: 3.5px;
+    border-left: 0;
+    padding-right: 11px;
+    padding-left: 11px;
+    border-radius: 2px;
+    font-weight: 700;
+}
+.dots{
+    background-image: url('https://icon-library.com/images/android-3-dot-menu-icon/android-3-dot-menu-icon-26.jpg');
+    width: 32px;
+    height: 32px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* border: 1px solid black; */
+}
+.linksandlogo{
+    /* border: 1px solid black; */
+    width: 415px;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    column-gap: 10px;
+}
+.link:link{
+    text-decoration: none;
+    /* color: blue; */
+    color: #3366cc;
+    font-size: 0.875em;
+}
+.link:hover{
+    text-decoration: underline;
+}
+.link{
+    color: #3366cc;
+}

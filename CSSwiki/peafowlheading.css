@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nulldiv{
+    width: 1152.6px;
+    height: 24px;
+    margin: auto;
+    /* border: 1px solid black; */
+}
+.container{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    position: relative;
+    left: 325px;
+}
+.peafowl{
+    width: 735px;
+    height: 40px;
+    border-bottom: 1px solid black;
+    font-size: 1.8em;
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+    line-height: 1.375;
+    color: #000000;
+    /* padding: px; */
+}
+.selectmenu{
+    width: 157px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid black;
+    /* margin: 8px 0; */
+    position: relative;
+    top: 4px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 890.667px;
+    height: 36px;
+    position: relative;
+    left: 325px;
+    font-size: 0.875rem;
+}
+.link1{
+    display: flex;
+    align-items: center;
+    width: 648.167px;
+    height: 36px;
+    /* border: 1px solid red; */
+}
+.article{
+    /* box-shadow: 0 1px #c8ccd1; */
+    border-bottom: 2px solid black;
+    /* padding-bottom: 21px; */
+    padding: 12px 0 7px 0;
+}
+.article:link{
+    text-decoration: none;
+    color: black;
+}
+.talk{
+    padding: 12px 0 7px 0;
+    margin-left: 15px;
+    color: #3366cc;
+}
+.talk:hover{
+    border-bottom: 2px solid #3366cc;
+}
+.talk:link{
+    text-decoration: none;
+}
+.article:visited{
+    color: black;
+    /* color: #3366cc; */
+    /* border-bottom: 2px solid ; */
+}
+.read,
+.edit,
+.view,
+.add{
+    padding: 12px 0 7px 0;
+}
+
+.link2{
+    display: flex;
+    width:180.812px;
+    height: 36px;
+    /* border: 1px solid yellow; */
+    column-gap: 15px;
+}
+.link3{
+    display: flex;
+    width:285.812px;
+    height: 36px;
+    /* border: 1px solid yellow; */
+    column-gap: 15px;
+}
+.read:link{
+    text-decoration: none;
+    border-bottom: 2px solid #000000;
+}
+.read:visited{
+    color:black;
+    /* border-bottom: 2px solid #000000; */
+}
+.add:link,
+.edit:link{
+    text-decoration: none;
+}
+.edit,
+.add{
+    color: #3366cc;
+    /* border-bottom: 2px solid #000000; */
+}
+.edit:hover{
+    color: #3366cc;
+    border-bottom: 2px solid #3366cc;
+}
+.view{
+    text-decoration: none;
+    color: #3366cc;
+}
+.view:hover{
+    color: #3366cc;
+    border-bottom: 2px solid #3366cc;
+}
+.tool{
+    display: flex;
+    align-items: center;
+    /* align-items: center; */
+    width: 58.68px;
+    height: 36px;
+    /* border: 1px solid green; */
+}
